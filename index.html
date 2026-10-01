@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for ZenWord Puzzle - Word Search by Keshav Studios, including Google AdMob advertising and data practices.">
+  <meta name="robots" content="index, follow">
+  <title>Privacy Policy - ZenWord Puzzle: Word Search</title>
+
+  <style>
+    :root {
+      --teal: #167f78;
+      --teal-dark: #116861;
+      --teal-soft: #e5f4f1;
+      --pink-soft: #fff0f3;
+      --blue-soft: #edf7fb;
+      --cream: #fffdf9;
+      --text: #172033;
+      --muted: #687386;
+      --border: #e5e9ee;
+      --card: #ffffff;
+      --shadow: 0 12px 35px rgba(30, 45, 65, 0.08);
+      --radius: 22px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 8% 4%, rgba(229,244,241,.95), transparent 30%),
+        radial-gradient(circle at 92% 10%, rgba(255,240,243,.9), transparent 28%),
+        linear-gradient(180deg, #f8fcfc 0%, #fffdf9 55%, #f3fafb 100%);
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--teal-dark);
+      text-decoration: none;
+      font-weight: 650;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .container {
+      width: min(1000px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .hero { padding: 54px 0 32px; }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      padding: 9px 15px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.85);
+      border: 1px solid rgba(22,127,120,.12);
+      box-shadow: 0 8px 24px rgba(30,45,65,.06);
+      color: var(--teal-dark);
+      font-weight: 750;
+    }
+
+    .brand-icon {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--teal);
+      color: #fff;
+      font-size: 17px;
+    }
+
+    h1 {
+      margin: 25px 0 10px;
+      font-size: clamp(34px, 6vw, 54px);
+      line-height: 1.08;
+      letter-spacing: -1.5px;
+    }
+
+    .subtitle {
+      margin: 0;
+      max-width: 820px;
+      font-size: 18px;
+      color: var(--muted);
+    }
+
+    .updated {
+      display: inline-block;
+      margin-top: 17px;
+      padding: 8px 13px;
+      border-radius: 999px;
+      background: var(--teal-soft);
+      color: var(--teal-dark);
+      font-size: 14px;
+      font-weight: 750;
+    }
+
+    .notice {
+      margin: 8px 0 26px;
+      padding: 20px 22px;
+      background: linear-gradient(135deg, #fff, #f3fbfa);
+      border: 1px solid #dcefeb;
+      border-left: 5px solid var(--teal);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .notice strong { color: var(--teal-dark); }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 225px 1fr;
+      gap: 28px;
+      align-items: start;
+      padding-bottom: 58px;
+    }
+
+    .toc {
+      position: sticky;
+      top: 18px;
+      padding: 20px;
+      background: rgba(255,255,255,.88);
+      border: 1px solid rgba(229,233,238,.9);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .toc-title {
+      margin: 0 0 11px;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .toc a {
+      display: block;
+      padding: 6px 0;
+      font-size: 14px;
+    }
+
+    .section {
+      margin-bottom: 18px;
+      padding: 30px;
+      background: rgba(255,255,255,.95);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 25px;
+      line-height: 1.25;
+      letter-spacing: -.3px;
+    }
+
+    h3 {
+      margin: 23px 0 8px;
+      font-size: 18px;
+    }
+
+    p { margin: 0 0 14px; }
+
+    ul {
+      margin: 8px 0 16px;
+      padding-left: 23px;
+    }
+
+    li { margin: 6px 0; }
+
+    .highlight {
+      padding: 16px 18px;
+      margin: 16px 0;
+      background: var(--blue-soft);
+      border-radius: 16px;
+    }
+
+    .admob-card {
+      background: linear-gradient(135deg, #fff7f8, #f0faf8);
+      border: 1px solid #e4ebe9;
+    }
+
+    .contact-card {
+      background: linear-gradient(135deg, var(--teal-soft), #fff8f9);
+      border: 1px solid #d7ece8;
+    }
+
+    .email {
+      display: inline-block;
+      margin-top: 4px;
+      padding: 11px 15px;
+      border-radius: 12px;
+      background: #fff;
+      border: 1px solid #dce8e6;
+      word-break: break-word;
+    }
+
+    .footer {
+      padding: 28px 0 46px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .footer strong { color: var(--text); }
+
+    @media (max-width: 760px) {
+      .hero { padding-top: 36px; }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .toc { position: static; }
+
+      .section { padding: 23px; }
+
+      h2 { font-size: 22px; }
+    }
+
+    @media print {
+      body { background: #fff; }
+      .toc { display: none; }
+      .layout { display: block; }
+      .section {
+        box-shadow: none;
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="hero">
+    <div class="container">
+      <div class="brand">
+        <span class="brand-icon">✦</span>
+        <span>Keshav Studios</span>
+      </div>
+
+      <h1>Privacy Policy</h1>
+
+      <p class="subtitle">
+        Privacy information for <strong>ZenWord Puzzle - Word Search</strong>,
+        a mobile word-search puzzle game developed by Keshav Studios.
+      </p>
+
+      <span class="updated">Effective Date: October 1, 2026</span>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="notice">
+      <strong>Privacy at a glance:</strong>
+      ZenWord Puzzle does not require an account for core gameplay. Game
+      progress and preferences may be stored locally on your device. The app
+      also uses <strong>Google AdMob</strong> to display advertisements.
+      AdMob may automatically collect and share certain device, advertising,
+      interaction, IP-address, and diagnostic information for advertising,
+      analytics, and fraud-prevention purposes, depending on the SDK and
+      features used. citeturn0search2turn0search4
+    </div>
+
+    <div class="layout">
+      <aside class="toc" aria-label="Table of contents">
+        <p class="toc-title">Contents</p>
+        <a href="#information">1. Information We Collect</a>
+        <a href="#local">2. Local Game Data</a>
+        <a href="#admob">3. Google AdMob</a>
+        <a href="#advertising">4. Advertising & Personalization</a>
+        <a href="#use">5. How Data Is Used</a>
+        <a href="#sharing">6. Data Sharing</a>
+        <a href="#security">7. Security</a>
+        <a href="#retention">8. Retention & Deletion</a>
+        <a href="#children">9. Children's Privacy</a>
+        <a href="#permissions">10. Permissions</a>
+        <a href="#changes">11. Changes</a>
+        <a href="#contact">12. Contact</a>
+      </aside>
+
+      <main>
+        <section class="section" id="information">
+          <h2>1. Information We Collect</h2>
+
+          <p>
+            ZenWord Puzzle - Word Search does not require you to create an
+            account or provide your name, postal address, telephone number, or
+            email address to use the core game.
+          </p>
+
+          <p>
+            However, because the app uses Google AdMob to serve advertisements,
+            the Google Mobile Ads SDK may automatically collect and share
+            certain information from your device. The exact information
+            processed can depend on the AdMob SDK version, configuration,
+            advertising settings, consent choices, and any optional features
+            or mediation partners used by the app. citeturn0search2turn0search4
+          </p>
+
+          <p>Depending on the configuration, this may include:</p>
+
+          <ul>
+            <li>
+              <strong>IP address</strong>, which may be used to estimate a
+              device's general location.
+            </li>
+            <li>
+              <strong>Device and account identifiers</strong>, such as the
+              Android Advertising ID and app set ID, where applicable.
+            </li>
+            <li>
+              <strong>Advertising information</strong>, such as information
+              related to advertisements shown or interacted with.
+            </li>
+            <li>
+              <strong>App and user interactions</strong>, such as app launches,
+              taps, and video/ad interactions.
+            </li>
+            <li>
+              <strong>Diagnostic and performance information</strong>, such as
+              app or SDK performance, launch time, hang-related information,
+              and energy usage.
+            </li>
+          </ul>
+
+          <p>
+            Google states that data collected by the Google Mobile Ads SDK is
+            encrypted in transit using Transport Layer Security (TLS).
+            citeturn0search2
+          </p>
+        </section>
+
+        <section class="section" id="local">
+          <h2>2. Local Game Data</h2>
+
+          <p>
+            ZenWord Puzzle may store gameplay information locally on your
+            Android device so that the game can remember your progress and
+            preferences.
+          </p>
+
+          <p>This may include:</p>
+
+          <ul>
+            <li>Completed levels and puzzle progress.</li>
+            <li>Stars, coins, rewards, and other in-game progress.</li>
+            <li>Words discovered and vocabulary progress.</li>
+            <li>Daily puzzle and streak progress.</li>
+            <li>Selected themes and game preferences.</li>
+            <li>Sound and haptic preferences.</li>
+          </ul>
+
+          <p>
+            Local gameplay data is used to provide the game's functionality and
+            is not intended by Keshav Studios to identify you personally.
+          </p>
+        </section>
+
+        <section class="section admob-card" id="admob">
+          <h2>3. Google AdMob</h2>
+
+          <p>
+            ZenWord Puzzle uses <strong>Google AdMob</strong>, a service
+            provided by Google, to display advertisements in the app.
+          </p>
+
+          <p>
+            The Google Mobile Ads SDK automatically collects and shares certain
+            information for purposes that can include advertising, analytics,
+            and fraud prevention. Google currently documents IP address,
+            user-product interactions, diagnostic information, and device and
+            account identifiers among the data handled automatically by the
+            SDK. citeturn0search2turn0search4
+          </p>
+
+          <h3>How AdMob data may be used</h3>
+
+          <ul>
+            <li>Delivering and displaying advertisements.</li>
+            <li>Measuring and improving advertising performance.</li>
+            <li>Analytics related to advertising and app interactions.</li>
+            <li>Fraud prevention, security, and abuse detection.</li>
+            <li>Estimating general location from IP address where applicable.</li>
+          </ul>
+
+          <p>
+            Google also states that Android Advertising ID collection is
+            optional and can be affected by Android user settings and
+            developer configuration. Certain AdMob features, including
+            Limited Ads, can disable transmission of the advertising ID and
+            other data. citeturn0search2
+          </p>
+
+          <p>
+            For more information about Google's handling of information,
+            please review
+            <a href="https://policies.google.com/privacy" target="_blank"
+               rel="noopener noreferrer">Google's Privacy Policy</a>
+            and Google's documentation for the
+            <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure"
+               target="_blank" rel="noopener noreferrer">
+              Google Mobile Ads SDK data disclosure
+            </a>.
+          </p>
+        </section>
+
+        <section class="section" id="advertising">
+          <h2>4. Advertising and Personalization</h2>
+
+          <p>
+            Advertisements in ZenWord Puzzle may be personalized or
+            non-personalized depending on factors such as your location,
+            applicable privacy requirements, your consent choices, device
+            settings, and the configuration of the Google Mobile Ads SDK.
+          </p>
+
+          <p>
+            Where applicable, Google may use information such as identifiers,
+            IP address, advertising interactions, and other signals to provide,
+            measure, or improve advertising. citeturn0search2
+          </p>
+
+          <p>
+            If your version of the app uses Google's consent tools or a
+            consent-management platform, your choices presented through those
+            mechanisms may affect the ads and data processing available to
+            AdMob.
+          </p>
+
+          <div class="highlight">
+            <strong>Location note:</strong>
+            ZenWord Puzzle does not need your precise location for its core
+            word-search gameplay. AdMob may use an IP address to estimate a
+            device's general location. If the app is configured to pass
+            precise location information to Google for advertising purposes,
+            additional notice and consent requirements may apply. citeturn0search0
+          </div>
+        </section>
+
+        <section class="section" id="use">
+          <h2>5. How Data Is Used</h2>
+
+          <p>
+            Information handled by ZenWord Puzzle and its integrated services
+            may be used for the following purposes:
+          </p>
+
+          <ul>
+            <li>Providing and maintaining the game.</li>
+            <li>Saving and restoring local gameplay progress.</li>
+            <li>Remembering game settings and preferences.</li>
+            <li>Displaying advertisements through Google AdMob.</li>
+            <li>Measuring advertising and app interactions where applicable.</li>
+            <li>Fraud prevention and security related to advertising.</li>
+            <li>Diagnosing and improving app or SDK performance.</li>
+          </ul>
+
+          <p>
+            Keshav Studios does not intentionally use ordinary gameplay
+            progress to identify you personally.
+          </p>
+        </section>
+
+        <section class="section" id="sharing">
+          <h2>6. Data Sharing</h2>
+
+          <p>
+            Keshav Studios does not sell your personal information as a
+            standalone business activity.
+          </p>
+
+          <p>
+            However, using Google AdMob means that certain information is
+            transmitted to Google and may be shared or processed by Google and
+            its relevant advertising infrastructure for advertising, analytics,
+            and fraud-prevention purposes, subject to applicable settings and
+            policies. citeturn0search2turn0search4
+          </p>
+
+          <p>
+            If additional advertising mediation networks, analytics SDKs,
+            authentication services, cloud services, or other third-party
+            services are added to a future version of ZenWord Puzzle, this
+            policy will be updated as necessary.
+          </p>
+
+          <p>
+            Google Play requires developers to disclose the data practices of
+            the app, including data handled by SDKs, and the Play Data Safety
+            information should remain consistent with the app's privacy policy.
+            citeturn0search13
+          </p>
+        </section>
+
+        <section class="section" id="security">
+          <h2>7. Data Security</h2>
+
+          <p>
+            We take reasonable measures to protect information handled by the
+            app. Core gameplay information is primarily stored locally on your
+            device unless a feature or third-party service requires information
+            to be transmitted.
+          </p>
+
+          <p>
+            Google states that data collected by the Google Mobile Ads SDK is
+            encrypted in transit using TLS. citeturn0search2
+          </p>
+
+          <p>
+            No method of electronic storage or transmission can be guaranteed
+            to be completely secure, so absolute security cannot be promised.
+          </p>
+        </section>
+
+        <section class="section" id="retention">
+          <h2>8. Data Retention and Deletion</h2>
+
+          <p>
+            ZenWord Puzzle does not require an account for ordinary gameplay,
+            so Keshav Studios does not maintain a user account database for
+            core game progress.
+          </p>
+
+          <p>
+            Gameplay information stored locally generally remains on your
+            device until you remove the app's data, clear the app's storage,
+            uninstall the app, or the operating system removes it.
+          </p>
+
+          <p>
+            You can normally delete locally stored game data through your
+            Android device's app settings or by uninstalling ZenWord Puzzle.
+            The exact steps may differ by Android device and version.
+          </p>
+
+          <p>
+            Data handled by Google AdMob is subject to Google's own retention,
+            deletion, privacy, and account/device-control mechanisms. Please
+            consult
+            <a href="https://policies.google.com/privacy" target="_blank"
+               rel="noopener noreferrer">Google's Privacy Policy</a>
+            for Google's practices.
+          </p>
+        </section>
+
+        <section class="section" id="children">
+          <h2>9. Children's Privacy</h2>
+
+          <p>
+            ZenWord Puzzle does not require children to provide personal
+            information to use the core gameplay.
+          </p>
+
+          <p>
+            Because this app uses advertising, its Google Play audience,
+            content rating, advertising configuration, and applicable consent
+            settings must be configured consistently with the actual target
+            audience and the applicable Google Play and Google advertising
+            policies.
+          </p>
+
+          <p>
+            We do not knowingly request personal information directly from
+            children through the game's core gameplay. If you believe that a
+            child has provided personal information directly to Keshav Studios,
+            please contact us so we can review the situation and take
+            appropriate action.
+          </p>
+        </section>
+
+        <section class="section" id="permissions">
+          <h2>10. Permissions and Device Access</h2>
+
+          <p>
+            ZenWord Puzzle may request Android permissions that are necessary
+            for features included in the published version of the application.
+          </p>
+
+          <p>
+            The core word-search gameplay does not require precise location.
+            AdMob may independently process information such as an IP address
+            for advertising-related purposes, as described above. citeturn0search2
+          </p>
+
+          <p>
+            If a future version introduces a permission involving personal or
+            sensitive information, the relevant purpose and data handling will
+            be reflected in the app and this policy as required.
+          </p>
+        </section>
+
+        <section class="section" id="changes">
+          <h2>11. Changes to This Privacy Policy</h2>
+
+          <p>
+            We may update this Privacy Policy when the app gains new features,
+            changes its advertising or data practices, adds or removes
+            third-party services, or when applicable legal or platform
+            requirements change.
+          </p>
+
+          <p>
+            The latest version will be published at this same URL and will
+            include an updated effective date.
+          </p>
+        </section>
+
+        <section class="section contact-card" id="contact">
+          <h2>12. Contact Us</h2>
+
+          <p>
+            If you have questions, concerns, or requests about this Privacy
+            Policy or the privacy practices of ZenWord Puzzle, please contact
+            Keshav Studios.
+          </p>
+
+          <p><strong>Developer:</strong> Keshav Studios</p>
+          <p><strong>App:</strong> ZenWord Puzzle - Word Search</p>
+
+          <p>
+            <strong>Privacy Contact:</strong><br>
+            <a class="email" href="mailto:keshavstudiosindia@gmail.com">
+              keshavstudiosindia@gmail.com
+            </a>
+          </p>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <strong>Keshav Studios</strong><br>
+      ZenWord Puzzle - Word Search<br>
+      Privacy Policy • Effective October 1, 2026
+    </div>
+  </footer>
+</body>
+</html>
